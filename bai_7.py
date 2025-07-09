@@ -1,4 +1,24 @@
-class Skill:
+
+🔸 Bài 7: Hệ thống kỹ năng chiến đấu (Skill System)
+Mô tả:
+
+Tạo lớp Skill với:
+
+name, damage, mana_cost
+
+Tạo lớp Mage kế thừa từ Player, có thêm:
+
+mana, danh sách skills
+
+Thêm phương thức:
+
+cast(skill, enemy) → nếu đủ mana thì gây sát thương theo skill
+
+📌 Gợi ý: giúp bạn hiểu cách quản lý kỹ năng + tiêu hao tài nguyên.
+
+#code
+
+class Skill:    
     def __init__(self, name, damge, mana_cost):
         self.name = name
         self.damge = damge
