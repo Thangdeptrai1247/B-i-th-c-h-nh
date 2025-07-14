@@ -1,3 +1,16 @@
+#🔸 Bài 9: Hệ thống vật phẩm (Inventory)
+$Mô tả:
+
+#Tạo lớp Item: name, type (vũ khí, máu, mana), value
+
+#Thêm vào Player một inventory (list Item)
+
+#Thêm phương thức:
+
+#use_item(item_name) → tăng HP hoặc mana tùy vật phẩm
+
+#📌 Gợi ý: giống các hệ thống như trong Pokémon, Genshin, v.v.
+
 class Item:
     def __init__(self, name, type, value):
         self.name = name
